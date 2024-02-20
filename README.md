@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# XML to JSON file handling frontend demo
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs all necessary packages in order to run the app.
 
 ### `npm start`
 

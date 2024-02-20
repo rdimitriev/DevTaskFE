@@ -1,0 +1,55 @@
+.Navbar {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    height: 56px;
+    background-color: #212121;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 1px 1px #222;
+    animation: Move-down 0.5s ease-in-out;
+}
+  
+.Title-container { 
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+  
+.App-logo {
+    height: 85%;
+    pointer-events: none;
+}
+  
+.App-header {
+    color: #FFFFFF;
+}
+  
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+  
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+}
+    to {
+        transform: rotate(360deg);
+    }
+}
+  
+@keyframes Move-down {
+    from {
+        transform: translateY(-5rem);
+    }
+    to {
+        transform: translateY(0rem);
+    }
+}
